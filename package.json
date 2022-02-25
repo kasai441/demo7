@@ -1,0 +1,13 @@
+{
+  "scripts": { "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds" },
+  "name": "demo7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kasai441 <kasai441441@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.0.1",
+    "@hotwired/turbo-rails": "^7.1.1",
+    "esbuild": "^0.14.23"
+  }
+}
