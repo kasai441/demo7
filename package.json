@@ -1,5 +1,7 @@
 {
-  "scripts": { "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds" },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds"
+  },
   "name": "demo7",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,6 +10,8 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/turbo-rails": "^7.1.1",
-    "esbuild": "^0.14.23"
+    "esbuild": "^0.14.23",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   }
 }
